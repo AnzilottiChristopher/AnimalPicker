@@ -16,6 +16,7 @@ public class AnimalPicker
             {
                 break;
             }
+            System.out.println("Error Invalid Answer");
         }
     }
 }
