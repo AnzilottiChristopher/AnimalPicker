@@ -18,5 +18,14 @@ public class AnimalPicker
             }
             System.out.println("Error Invalid Answer");
         }
+        if(animalCheck.equalsIgnoreCase("Dog"))
+        {
+            System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
+        }
+        else if(animalCheck.equalsIgnoreCase("Cat"))
+        {
+            System.out.println("      |\\      _,,,---,,_\nZZZzz /,`.-\'`\'    -.  ;-;;,_\n     |,4-  ) )-,_. ,\\ (  `\'-\'\n    \'---\'\'(_/--\'  `-\'\\_)");
+        }
+        scan.close();
     }
 }
