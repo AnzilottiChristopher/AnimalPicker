@@ -10,9 +10,9 @@ public class AnimalPicker
         String animalCheck = "PlaceHolder";   
         while(true)
         {
-            System.out.println("What animal would you like to see? Cat or Dog: ");
+            System.out.println("What animal would you like to see? Cat, Dog, or Fish: ");
             animalCheck = scan.nextLine();
-            if(animalCheck.equalsIgnoreCase("Dog") || animalCheck.equalsIgnoreCase("Cat"))
+            if(animalCheck.equalsIgnoreCase("Dog") || animalCheck.equalsIgnoreCase("Cat") || animalCheck.equalsIgnoreCase("fish"))
             {
                 break;
             }
@@ -20,11 +20,18 @@ public class AnimalPicker
         }
         if(animalCheck.equalsIgnoreCase("Dog"))
         {
+            System.out.println("Dog ASCII here: ");
             System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
         }
         else if(animalCheck.equalsIgnoreCase("Cat"))
         {
+            System.out.println("Cat ASCII here: ");
             System.out.println("      |\\      _,,,---,,_\nZZZzz /,`.-\'`\'    -.  ;-;;,_\n     |,4-  ) )-,_. ,\\ (  `\'-\'\n    \'---\'\'(_/--\'  `-\'\\_)");
+        }
+        else if(animalCheck.equalsIgnoreCase("fish"))
+        {
+            System.out.println("Fish ASCII here: ");
+            System.out.println("  _\n><_>");
         }
         scan.close();
     }
