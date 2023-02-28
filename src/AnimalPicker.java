@@ -34,5 +34,6 @@ public class AnimalPicker
             System.out.println("  _\n><_>");
         }
         scan.close();
+        //For the screenshot I forgot earlier
     }
 }
